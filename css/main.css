@@ -60,14 +60,12 @@ body {
 }
 
 img {
-    height: 400px;
+    width: 354px;
     border-radius: 20px;
     transition: 0.3s;
 }
 
-img:hover {
-    transform: scale(1.05);
-}
+
 
 .cards {
     margin: 0 auto;
