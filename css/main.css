@@ -10,3 +10,35 @@ body {
     background-color: var(--background-color);
     color: var(--color);
 }
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.navbar li {
+    margin: 0% 9.5%;
+    list-style: none;
+
+}
+
+.navbar a {
+    border: 2px solid white;
+    width: fit-content;
+    padding: 9px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar {
+    border: 2px solid white;
+    padding: 15px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+}
