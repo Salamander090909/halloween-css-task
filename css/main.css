@@ -57,15 +57,17 @@ body {
     border: 2px solid black;
     border-radius: 20px;
     margin: 40px 0;
+    padding-bottom: 20px;
+    margin: 20 auto;
 }
 
 img {
-    width: 354px;
-    border-radius: 20px;
-    transition: 0.3s;
+    width: 300px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding: 27px;
+    padding-top: 0;
 }
-
-
 
 .cards {
     margin: 0 auto;
@@ -86,12 +88,18 @@ img {
 .monster-card1 {
     border: 2px solid black;
     border-radius: 20px;
-    margin: 40px 0;    
+    margin: 40px 0;
 }
 
 button {
     border: 2px solid black;
     border-radius: 10px;
-    padding: 5px;   
-    
+    padding: 8px 15px 8px 15px;  
+    background-color: rgb(253, 161, 31);
+    transition: 0.4s;
+}
+button:hover {
+    color:#0000EE;
+    background-color: white;
+    cursor: pointer;
 }
